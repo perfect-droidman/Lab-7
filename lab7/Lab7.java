@@ -19,8 +19,6 @@ public class Lab7<T extends Comparable<? super T>>{
         numberOfItems++;
     }
     
-    
-    
     public boolean isEmpty(){
         return numberOfItems == 0;
     }
